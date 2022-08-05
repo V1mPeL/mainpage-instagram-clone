@@ -1,0 +1,160 @@
+.main__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+.footer {
+    width: 320px;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+
+    .account {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .account__info {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .account__img {
+        height: 55px;
+        width: 55px;
+        border: 1px solid gray;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .account__name {
+        display: block;
+        gap: 5px;
+
+        .account__login {
+            text-decoration: none;
+            color: black;
+            font-weight: normal;
+        }
+        .account__subscription {
+            color: rgb(152, 152, 152);
+            font-size: 15px;
+        }
+    }
+
+    .account__btn {
+        text-decoration: none;
+        color: rgb(53, 114, 185);
+        font-weight: bold;
+    }
+    
+
+    .titles {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+
+        &__title {
+            color: rgb(110, 110, 110);
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        &__subtitle {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    }
+    
+    .suggestions {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+        width: 85%;
+        
+            .suggestion {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+              }
+              
+              .suggestion__info {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+              }
+              .suggestion__img {
+                height: 40px;
+                width: 40px;
+
+                border-radius: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid gray;
+              }
+              
+              .suggestion__name {
+                display: block;
+                gap: 5px;
+              
+                .suggestion__login {
+                    text-decoration: none;
+                    color: black;
+                    font-weight: normal;
+                    font-size: 15px;
+                }
+                .suggestion__subscription {
+                    color: rgb(152, 152, 152);
+                    font-size: 15px;
+                }
+              }
+              
+              .suggestion__btn {
+                background: transparent;
+                color: rgb(83, 143, 212);
+                font-weight: bold;
+                font-size: 10px;
+              }
+
+
+    }
+
+    .footer__links {
+        display: flex;
+        width: 85%;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+    .footer__link {
+        text-decoration: none;
+        color: rgb(152, 152, 152);
+        margin-right: 5px;
+        font-size: 13px;
+        transition: .3s all;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .footer__copyright {
+        text-transform: uppercase;
+        color: rgb(152, 152, 152);
+        margin-top: 15px;
+    }
+}
+

@@ -1,0 +1,75 @@
+// Header
+$burgerBreakpoint: 992px;
+$burgerColor: 'black';
+$burgerActiveColor: 'white';
+
+// Navbar
+nav {
+    background-color: white;
+    overflow: hidden;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logo {
+    a {
+        color: black;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 30px;
+    }
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    @media screen and (max-width: 768px) {
+        gap: 15px;
+    }
+
+    // .menu__item
+  
+    // .menu__item-link
+    &__item-link {
+        color: black;
+        font-size: 25px;
+        @media screen and (max-width: 768px) {
+            font-weight: normal;
+        }
+    }
+}
+
+.search__bar {
+    width: 270px;
+    height: 35px;
+    background: rgb(243, 241, 241);
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+    & .icon {
+        color: gray;
+        font-size: 20px;
+        
+    }
+
+    .search {
+        outline: none;
+        background: transparent;
+        padding: 5px;
+        
+    }
+
+    
+}

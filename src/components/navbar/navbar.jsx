@@ -15,7 +15,7 @@ export const Navbar = () => {
     <nav id='nav'>
         <div className="container">
             <div className="navbar" id='navbar'>
-                <div className="logo"> <Link to={'/'}> Instagram </Link> </div>
+                <div className="logo"> <Link to={'instagram-clone/'}> Instagram </Link> </div>
 
                     <form class="search__bar">
                         <AiOutlineSearch className='icon'/>
@@ -24,12 +24,12 @@ export const Navbar = () => {
 
 
                 <ul className="menu" id='menu'>
-                    <li className="menu__item"><Link to={'/'} className="menu__item-link" data-scroll><AiFillHome /></Link></li>
-                    <li className="menu__item"><Link to={'/direct'} className="menu__item-link" data-scroll><RiMessengerLine /></Link></li>
-                    <li className="menu__item"><Link to={'/post'} className="menu__item-link" data-scroll><MdOutlineAddBox /></Link></li>
-                    <li className="menu__item"><Link to={'/explore'} className="menu__item-link" data-scroll><FaRegCompass /></Link></li>
-                    <li className="menu__item"><a href="/" className="menu__item-link" data-scroll><AiOutlineHeart /></a></li>
-                    <li className="menu__item"><Link to={'/profile'} className="menu__item-link" data-scroll>O</Link></li>
+                    <li className="menu__item"><Link to={'instagram-clone/'} className="menu__item-link" data-scroll><AiFillHome /></Link></li>
+                    <li className="menu__item"><Link to={'instagram-clone/direct'} className="menu__item-link" data-scroll><RiMessengerLine /></Link></li>
+                    <li className="menu__item"><Link to={'instagram-clone/post'} className="menu__item-link" data-scroll><MdOutlineAddBox /></Link></li>
+                    <li className="menu__item"><Link to={'instagram-clone/explore'} className="menu__item-link" data-scroll><FaRegCompass /></Link></li>
+                    <li className="menu__item"><button className="menu__item-link" data-scroll><AiOutlineHeart /></button></li>
+                    <li className="menu__item"><Link to={'instagram-clone/profile'} className="menu__item-link" data-scroll>O</Link></li>
                 </ul>
             </div>
         </div>

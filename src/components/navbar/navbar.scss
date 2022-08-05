@@ -24,6 +24,9 @@ nav {
         font-family: 'Kaushan Script', cursive;
         font-size: 30px;
     }
+    @media screen and (max-width: 480px) {
+        font-size: 15px;
+    }
 }
 
 .menu {
@@ -32,6 +35,10 @@ nav {
     @media screen and (max-width: 768px) {
         gap: 15px;
     }
+    @media screen and (max-width: 480px) {
+        gap: 10px;
+    }
+
 
     // .menu__item
   
@@ -41,6 +48,9 @@ nav {
         font-size: 25px;
         @media screen and (max-width: 768px) {
             font-weight: normal;
+        }
+        @media screen and (max-width: 480px) {
+            font-size: 20px;
         }
     }
 }

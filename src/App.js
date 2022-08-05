@@ -16,15 +16,15 @@ function App() {
     <Router>
       <div className="app">
         <Navbar/> 
-        <Main >
+        <main>
           <Routes>
-            <Route path="/" element={<Main/>}/>
-            <Route path="/direct" element={<Direct/>}/>
-            <Route path="/post" element={<Post/>}/>
-            <Route path="/explore" element={<Explore/>}/>
-            <Route path="/profile" element={<Profile/>}/>
+            <Route path="instagram-clone/" element={<Main/>}/>
+            <Route path="instagram-clone/direct" element={<Direct/>}/>
+            <Route path="instagram-clone/post" element={<Post/>}/>
+            <Route path="instagram-clone/explore" element={<Explore/>}/>
+            <Route path="instagram-clone/profile" element={<Profile/>}/>
           </Routes>
-        </Main>
+        </main>
       </div>
   </Router>
   )

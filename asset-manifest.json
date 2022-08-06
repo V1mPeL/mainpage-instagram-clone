@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/instagram-clone/static/css/main.712ed385.css",
-    "main.js": "/instagram-clone/static/js/main.04e7f431.js",
-    "static/js/787.745c8028.chunk.js": "/instagram-clone/static/js/787.745c8028.chunk.js",
-    "static/media/postTest.jpg": "/instagram-clone/static/media/postTest.dd81939a1dfd8558f825.jpg",
-    "index.html": "/instagram-clone/index.html",
-    "main.712ed385.css.map": "/instagram-clone/static/css/main.712ed385.css.map",
-    "main.04e7f431.js.map": "/instagram-clone/static/js/main.04e7f431.js.map",
-    "787.745c8028.chunk.js.map": "/instagram-clone/static/js/787.745c8028.chunk.js.map"
+    "main.css": "/mainpage-instagram-clone/static/css/main.712ed385.css",
+    "main.js": "/mainpage-instagram-clone/static/js/main.6983970e.js",
+    "static/js/787.745c8028.chunk.js": "/mainpage-instagram-clone/static/js/787.745c8028.chunk.js",
+    "static/media/postTest.jpg": "/mainpage-instagram-clone/static/media/postTest.dd81939a1dfd8558f825.jpg",
+    "index.html": "/mainpage-instagram-clone/index.html",
+    "main.712ed385.css.map": "/mainpage-instagram-clone/static/css/main.712ed385.css.map",
+    "main.6983970e.js.map": "/mainpage-instagram-clone/static/js/main.6983970e.js.map",
+    "787.745c8028.chunk.js.map": "/mainpage-instagram-clone/static/js/787.745c8028.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.712ed385.css",
-    "static/js/main.04e7f431.js"
+    "static/js/main.6983970e.js"
   ]
 }

@@ -13,10 +13,9 @@ export const Main = () => {
         <div className='main__wrapper'>
 
             <div className="posts">
-                <div className="storys">Storys</div>
                 <div className="posts__items">
                     <Post 
-                        img={""}
+                        userimg={'https://res.cloudinary.com/stealthman22/image/upload/v1586308024/new-portfolio/hero/time-lapse-photography-of-waterfalls-during-sunset-210186.jpg'}
                         login={"_dreamophink_"}
                         location={"Sambir"}
                         imageURL={postTest}
@@ -25,20 +24,20 @@ export const Main = () => {
                         time={50}
                     />
                     <Post 
-                        img={""}
+                        userimg={'https://res.cloudinary.com/stealthman22/image/upload/v1586308024/new-portfolio/hero/time-lapse-photography-of-waterfalls-during-sunset-210186.jpg'}
 
                         login={"maks__zhyla"}
                         location={"Nagirne"}
-                        imageURL={postTest}
-                        description={"Я Максим"}
+                        imageURL={ 'https://res.cloudinary.com/stealthman22/image/upload/v1586308024/new-portfolio/hero/time-lapse-photography-of-waterfalls-during-sunset-210186.jpg'}
+                        description={"....."}
                         comnum={21}
                         time={1}
                     />
                     <Post 
-                        img={""}
+                        userimg={'https://res.cloudinary.com/stealthman22/image/upload/v1586308024/new-portfolio/hero/time-lapse-photography-of-waterfalls-during-sunset-210186.jpg'}
                         login={"_dreamophink_"}
                         location={"Sambir"}
-                        imageURL={postTest}
+                        imageURL={ 'https://res.cloudinary.com/stealthman22/image/upload/v1586308023/new-portfolio/hero/two-cargo-ships-sailing-near-city-2144905.jpg'}
                         description={"Тест"}
                         comnum={100}
                         time={43}
@@ -49,7 +48,7 @@ export const Main = () => {
 
             <footer className='footer'>
                 <Account 
-                    img={""}
+                    img={'https://res.cloudinary.com/stealthman22/image/upload/v1586308023/new-portfolio/hero/two-cargo-ships-sailing-near-city-2144905.jpg'}
                     login={"_dreamophink_"}
                     name={"Vitaliy Sprynskyi"}
                 />
@@ -59,27 +58,27 @@ export const Main = () => {
                 </div>
                 <div className="suggestions">
                     <Suggestion 
-                        img={""}
+                        img={'https://res.cloudinary.com/stealthman22/image/upload/v1586308023/new-portfolio/hero/two-cargo-ships-sailing-near-city-2144905.jpg'}
                         login={"_dreamophink_"}
                         name={"Vitaliy Sprynskyi"}
                     />
                     <Suggestion 
-                        img={"h"}
+                        img={'https://res.cloudinary.com/stealthman22/image/upload/v1586308023/new-portfolio/hero/two-cargo-ships-sailing-near-city-2144905.jpg'}
                         login={"maks_zhyla"}
                         name={"Maksym"}
                     />
                     <Suggestion 
-                        img={""}
+                        img={'https://res.cloudinary.com/stealthman22/image/upload/v1586308023/new-portfolio/hero/two-cargo-ships-sailing-near-city-2144905.jpg'}
                         login={"_andriy.roman_"}
                         name={"Andriy Roman"}
                     />
                     <Suggestion 
-                        img={""}
+                        img={'https://res.cloudinary.com/stealthman22/image/upload/v1586308024/new-portfolio/hero/time-lapse-photography-of-waterfalls-during-sunset-210186.jpg'}
                         login={"_dreamophink_"}
                         name={"Vitaliy Sprynskyi"}
                     />
                     <Suggestion 
-                        img={"h"}
+                        img={'https://res.cloudinary.com/stealthman22/image/upload/v1586308024/new-portfolio/hero/time-lapse-photography-of-waterfalls-during-sunset-210186.jpg'}
                         login={"maks_zhyla"}
                         name={"Maksym"}
                     />
@@ -106,3 +105,5 @@ export const Main = () => {
     </div>
   )
 }
+
+

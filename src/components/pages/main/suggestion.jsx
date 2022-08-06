@@ -13,7 +13,7 @@ export const Suggestion = ({img, login, name}) => {
     <div className="suggestion">
         <div className="suggestion__info">
             <div className="suggestion__img">
-                <img src={img} alt="IMG" />
+                <img className="suggestion__img__item" src={img} alt="IMG" />
             </div>
             <div className="suggestion__name">
                 <a href='/' className="suggestion__login">{login}</a>

@@ -9,13 +9,13 @@ import {AiOutlineSearch} from 'react-icons/ai'
 
 import { Link } from "react-router-dom";
 
-export const Navbar = () => {
+export const Navbar = ({profile__img}) => {
   
   return (
     <nav id='nav'>
         <div className="container">
             <div className="navbar" id='navbar'>
-                <div className="logo"> <Link to={'instagram-clone/'}> Instagram </Link> </div>
+                <div className="logo"> <a href="/"> Instagram </a> </div>
 
                 <form class="search__bar">
                     <AiOutlineSearch className='icon'/>
@@ -24,17 +24,17 @@ export const Navbar = () => {
 
 
                 <ul className="menu" id='menu'>
-                    <li className="menu__item"><Link to={'instagram-clone/'} className="menu__item-link" data-scroll><AiFillHome /></Link></li>
-                    <li className="menu__item direct"><Link to={'instagram-clone/direct'} className="menu__item-link " data-scroll><RiMessengerLine /></Link></li>
-                    <li className="menu__item lins"><Link to={'instagram-clone/explore'} className="menu__item-link" data-scroll><AiOutlineSearch /></Link></li>
-                    <li className="menu__item"><Link to={'instagram-clone/post'} className="menu__item-link" data-scroll><MdOutlineAddBox /></Link></li>
-                    <li className="menu__item compass"><Link to={'instagram-clone/explore'} className="menu__item-link" data-scroll><FaRegCompass /></Link></li>
+                    <li className="menu__item"><a href="/" className="menu__item-link" data-scroll><AiFillHome /></a></li>
+                    <li className="menu__item direct"><a a href="/" className="menu__item-link " data-scroll><RiMessengerLine /></a></li>
+                    <li className="menu__item lins">< a href="/" className="menu__item-link" data-scroll><AiOutlineSearch /></a></li>
+                    <li className="menu__item"><a a href="/" className="menu__item-link" data-scroll><MdOutlineAddBox /></a></li>
+                    <li className="menu__item compass"><a a href="/" className="menu__item-link" data-scroll><FaRegCompass /></a></li>
                     <li className="menu__item"><button className="menu__item-link" data-scroll><AiOutlineHeart /></button></li>
-                    <li className="menu__item"><Link to={'instagram-clone/profile'} className="menu__item-link" data-scroll>O</Link></li>
+                    <li className="menu__item"><a a href="/" className="menu__item-link" data-scroll><img src={profile__img}></img></a></li>
                 </ul>
 
                 <ul>
-                    <li className="menu__item directMobile"><Link to={'instagram-clone/direct'} className="menu__item-link " data-scroll><RiMessengerLine /></Link></li>
+                    <li className="menu__item directMobile"><a a href="/" className="menu__item-link " data-scroll><RiMessengerLine /></a></li>
                 </ul>
             </div>
         </div>

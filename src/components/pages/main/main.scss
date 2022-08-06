@@ -83,6 +83,15 @@ gap: 15px;
     justify-content: center;
     align-items: center;
     border: 1px solid gray;
+
+    &__item {
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
                 
 .profile__name {
@@ -233,6 +242,14 @@ gap: 15px;
         justify-content: center;
         align-items: center;
     }
+    .img__item {
+        display: flex;
+                justify-content: center;
+                align-items: center;
+        width: 55px;
+        height: 55px;
+        border-radius: 100%;
+    }
 
     .account__name {
         display: block;
@@ -306,6 +323,15 @@ gap: 15px;
                 align-items: center;
                 border: 1px solid gray;
               }
+
+              .suggestion__img__item {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 40px;
+                height: 40px;
+                border-radius: 100%;
+                }
               
               .suggestion__name {
                 display: block;

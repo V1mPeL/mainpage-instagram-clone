@@ -8,13 +8,13 @@ import {TbBrandTelegram} from 'react-icons/tb'
 import {BsBookmark} from 'react-icons/bs'
 
 
-export const Post = ({img,  login, location, imageURL, description, comnum, time}) => {
+export const Post = ({userimg,  login, location, imageURL, description, comnum, time}) => {
   return (
     <div className='post'>
         <div className="post__header">
             <div className="profile__info">
                 <div className="profile__img">
-                    <img src={img} alt="IMG" />
+                    <img className="profile__img__item" src={userimg} alt="IMG" />
                 </div>
                 <div className="profile__name">
                     <a href='/' className="profile__login">{login}</a>

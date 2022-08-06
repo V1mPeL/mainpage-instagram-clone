@@ -6,7 +6,7 @@ export const Account = ({img, login, name}) => {
     <div className="account">
         <div className="account__info">
             <div className="account__img">
-                <img src={img} alt="IMG" />
+                <img  className="img__item" src={img} alt="IMG" />
             </div>
             <div className="account__name">
                 <a href='/' className="account__login">{login}</a>

@@ -7,6 +7,11 @@ $burgerActiveColor: 'white';
 nav {
     background-color: white;
     overflow: hidden;
+    border-bottom: 1px solid #dfdfdf;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .navbar {
@@ -32,16 +37,49 @@ nav {
 .menu {
     display: flex;
     gap: 20px;
+    background: #fff;
+    padding: 5px;
     @media screen and (max-width: 768px) {
         gap: 15px;
     }
     @media screen and (max-width: 480px) {
-        gap: 10px;
+        position: fixed;
+        bottom: 0;
+        left: 0;right: 0;
+        width: 100%;
+        justify-content: space-around;
     }
 
 
     // .menu__item
-  
+    &__item {
+        &.direct {
+            @media screen and (max-width: 480px) {
+                display: none;
+            }
+        }
+        &.compass {
+            @media screen and (max-width: 480px) {
+                display: none;
+            }
+        }
+        &.directMobile {
+            display: none;
+            @media screen and (max-width: 480px) {
+                display: block;
+            }
+        }
+        &.lins {
+            display: none;
+            @media screen and (max-width: 480px) {
+                display: block;
+            }
+        }
+
+        & button {
+            background: transparent;
+        }
+    }
     // .menu__item-link
     &__item-link {
         color: black;
@@ -49,9 +87,7 @@ nav {
         @media screen and (max-width: 768px) {
             font-weight: normal;
         }
-        @media screen and (max-width: 480px) {
-            font-size: 20px;
-        }
+        
     }
 }
 

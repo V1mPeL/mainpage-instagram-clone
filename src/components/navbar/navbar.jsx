@@ -17,19 +17,24 @@ export const Navbar = () => {
             <div className="navbar" id='navbar'>
                 <div className="logo"> <Link to={'instagram-clone/'}> Instagram </Link> </div>
 
-                    <form class="search__bar">
-                        <AiOutlineSearch className='icon'/>
-                        <input type="search" className='search' placeholder="Пошук" />
-                    </form>
+                <form class="search__bar">
+                    <AiOutlineSearch className='icon'/>
+                    <input type="search" className='search' placeholder="Пошук" />
+                </form>
 
 
                 <ul className="menu" id='menu'>
                     <li className="menu__item"><Link to={'instagram-clone/'} className="menu__item-link" data-scroll><AiFillHome /></Link></li>
-                    <li className="menu__item"><Link to={'instagram-clone/direct'} className="menu__item-link" data-scroll><RiMessengerLine /></Link></li>
+                    <li className="menu__item direct"><Link to={'instagram-clone/direct'} className="menu__item-link " data-scroll><RiMessengerLine /></Link></li>
+                    <li className="menu__item lins"><Link to={'instagram-clone/explore'} className="menu__item-link" data-scroll><AiOutlineSearch /></Link></li>
                     <li className="menu__item"><Link to={'instagram-clone/post'} className="menu__item-link" data-scroll><MdOutlineAddBox /></Link></li>
-                    <li className="menu__item"><Link to={'instagram-clone/explore'} className="menu__item-link" data-scroll><FaRegCompass /></Link></li>
+                    <li className="menu__item compass"><Link to={'instagram-clone/explore'} className="menu__item-link" data-scroll><FaRegCompass /></Link></li>
                     <li className="menu__item"><button className="menu__item-link" data-scroll><AiOutlineHeart /></button></li>
                     <li className="menu__item"><Link to={'instagram-clone/profile'} className="menu__item-link" data-scroll>O</Link></li>
+                </ul>
+
+                <ul>
+                    <li className="menu__item directMobile"><Link to={'instagram-clone/direct'} className="menu__item-link " data-scroll><RiMessengerLine /></Link></li>
                 </ul>
             </div>
         </div>

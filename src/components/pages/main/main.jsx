@@ -2,14 +2,48 @@ import React from 'react'
 import './main.scss'
 import {Account} from './account'
 import {Suggestion} from './suggestion'
+import {Post} from './post'
+import postTest from '../img/postTest.jpg'
 
 export const Main = () => {
   return (
-    <div className="container">
+    <div className='main'>
+
+<div className="container">
         <div className='main__wrapper'>
 
             <div className="posts">
-                Posts
+                <div className="storys">Storys</div>
+                <div className="posts__items">
+                    <Post 
+                        img={""}
+                        login={"_dreamophink_"}
+                        location={"Sambir"}
+                        imageURL={postTest}
+                        description={"Hello, World!"}
+                        comnum={1}
+                        time={50}
+                    />
+                    <Post 
+                        img={""}
+
+                        login={"maks__zhyla"}
+                        location={"Nagirne"}
+                        imageURL={postTest}
+                        description={"Я Максим"}
+                        comnum={21}
+                        time={1}
+                    />
+                    <Post 
+                        img={""}
+                        login={"_dreamophink_"}
+                        location={"Sambir"}
+                        imageURL={postTest}
+                        description={"Тест"}
+                        comnum={100}
+                        time={43}
+                    />
+                </div>
             </div>
 
 
@@ -65,7 +99,10 @@ export const Main = () => {
 
                 <h3 className="footer__copyright">© Instagram from Meta, 2022</h3>
             </footer>
+
         </div>
+    </div>
+
     </div>
   )
 }

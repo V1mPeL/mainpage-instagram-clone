@@ -1,6 +1,6 @@
 // Container & Breakpoints
 @use 'sass:math';
-$containerWidth: 1000;
+$containerWidth: 1200;
 $containerPadding: 40;
 $containerSidePadding: math.div($containerPadding, 2);
 $breakpoint1450: 1449.98 + px;
@@ -48,6 +48,7 @@ body {
   &.locked {
       overflow: hidden;
   }
+  background: #fafafa;
 }
 
 // Animations
